@@ -20,7 +20,7 @@ sidebar = "true" # sidebar value (true or false)
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
 custom_script = ""
 
-mainSections = ["blog"]
+mainSections = ["news"]
 
 # contact form works with https://formspree.io and Netlify
 # use Netlify's contact form functionality
@@ -28,8 +28,8 @@ netlify = true # set to false if using formspree.io
 # contact form action
 contact_form_action = "#"
 # copyright
-theme_copyright = true
-copyright = "Copyright"
+theme_copyright = false
+copyright = "Copyright 2023 Alsa Masa"
 
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
@@ -40,8 +40,8 @@ theme_default = "system" # available options [light/dark/system]
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["Hugo", "Blog", "Statichunt", "iWriter"]
-description = "Alsa Masa is a partylist"
+keywords = ["Alsa Masa", "Tabang Masa", "Bayanihan", "Davao"]
+description = "Alsa Masa is an anti-crime organization that promotes bayanihan and nation-building"
 author = "Alsa Masa"
 image = "images/og-image.jpg"      # this image will be used as fallback if a page has no image of its own
 
@@ -86,29 +86,29 @@ sidebar = ["search", "categories", "recent-post", "social"]
 [[social]]
 title = "facebook"
 icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://www.facebook.com/alsamasaorig"
 
 [[social]]
 title = "twitter"
 icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://twitter.com/alsamasaorig"
 
-[[social]]
-title = "mastodon"
-icon = "fab fa-mastodon" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+# [[social]]
+# title = "mastodon"
+# icon = "fab fa-mastodon" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#"
 
-[[social]]
-title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+# [[social]]
+# title = "instagram"
+# icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#"
 
-[[social]]
-title = "github"
-icon = "fab fa-pinterest" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+# [[social]]
+# title = "github"
+# icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = ""
 
-[[social]]
-title = "linkedin"
-icon = "fab fa-youtube" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+# [[social]]
+# title = "linkedin"
+# icon = "fab fa-youtube" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#"
