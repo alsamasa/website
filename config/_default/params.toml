@@ -2,13 +2,13 @@
 # favicon
 favicon = "images/favicon.png"
 # logo
-logo = "images/logo.png"
-logo_dark = "images/logo-white.png"
+logo = "icons/alsa.png"
+logo_dark = "icons/alsa.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = "120px"
+logo_width = "80px"
 # logo text will only show when logo is missing.
-logo_text = "Alsa-Masa"
+logo_text = "Alsa Masa"
 
 # navbar fixed to top
 navbar_fixed = true
@@ -41,8 +41,8 @@ theme_default = "system" # available options [light/dark/system]
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
 keywords = ["Hugo", "Blog", "Statichunt", "iWriter"]
-description = "iWriter is a blog template based on Bootstrap and powered by Hugo"
-author = "Statichunt"
+description = "Alsa Masa is a partylist"
+author = "Alsa Masa"
 image = "images/og-image.jpg"      # this image will be used as fallback if a page has no image of its own
 
 # Preloader

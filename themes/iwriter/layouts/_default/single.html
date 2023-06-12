@@ -15,7 +15,9 @@
             <span>{{ time.Format ":date_long" .PublishDate }}</span>
             <span class="px-3">|</span>
             <span>{{ .ReadingTime }} {{ i18n `min_read` }}</span>
-  
+            <span class="px-3">|</span>
+            <span>{{ .Params.author }}</span>
+
             <ul class="post-meta list-unstyle">
               <li class="text-capitalize ms-4">categories : {{ range .Params.categories }}
                 <a href="{{`categories` | relURL}}/{{. | urlize | lower}}">{{ . }}</a>

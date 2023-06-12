@@ -6,33 +6,39 @@ name = "Home"
 url = ""
 weight = 1
 
+# [[main]]
+# name = "Element"
+# url = "element/"
+# weight = 4
+
+
 [[main]]
-name = "About"
-url = "about/"
 weight = 2
-
-[[main]]
-name = "Contact"
-url = "contact/"
-weight = 3
-
-
-[[main]]
-name = "Element"
-url = "element/"
-weight = 4
-
-[[main]]
-weight = 5
-name = "Pages"
+name = "News"
 hasChildren = true
 
 [[main]]
-parent = "Pages"
-name = "Blog Details"
-url = "blog/post-1/"
+parent = "News"
+name = "Latest News"
+url = "/news"
+
+# [[main]]
+# parent = "News"
+# name = "Categories"
+# url = "/categories"
+
 
 [[main]]
-parent = "Pages"
-name = "Category"
-url = "categories/travel"
+weight = 3
+name = "About"
+hasChildren = true
+
+[[main]]
+parent = "About"
+name = "About Us"
+url = "/about"
+
+[[main]]
+parent = "About"
+name = "Contact"
+url = "/contact"
