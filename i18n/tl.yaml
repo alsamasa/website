@@ -1,3 +1,9 @@
+- id: name
+  translation: Pangalan
+
+- id: phone
+  translation: Telepono
+
 - id: read_more
   translation: Magbasa pa
 

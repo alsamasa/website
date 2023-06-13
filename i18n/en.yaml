@@ -1,3 +1,9 @@
+- id: name
+  translation: Name
+
+- id: phone
+  translation: Phone
+  
 - id: read_more
   translation: Read More
 

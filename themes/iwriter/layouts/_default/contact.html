@@ -11,17 +11,17 @@
         <form action="{{ site.Params.contact_form_action }}" method="post" {{ with .Params.form_name }}name="{{ . }}"{{ end }} {{ if site.Params.netlify }}data-netlify="true" netlify-honeypot="always-empty"{{ end }}>
           <div class="row g-4">
             <div class="col-md-6 mb-3 mt-0">
-              <input type="text" class="form-control" placeholder="{{ i18n `first_name`}}" aria-label="{{ i18n `first_name`}}" name="{{ i18n `first_name`}}" required>
+              <input type="text" class="form-control" placeholder="{{ i18n `name`}}" aria-label="{{ i18n `name`}}" name="email[name]" required>
             </div>
             <div class="col-md-6 mb-3 mt-0">
-              <input type="text" class="form-control" placeholder="{{ i18n `last_name`}}" aria-label="{{ i18n `last_name`}}" name="{{ i18n `last_name`}}" required>
+              <input type="text" class="form-control" placeholder="{{ i18n `phone`}}" aria-label="{{ i18n `phone`}}" name="email[phone]" required>
             </div>
             <div class="col-12 mb-3 mt-0">
-              <input type="email" class="form-control" placeholder="{{ i18n `email`}}" aria-label="{{ i18n `email`}}" name="{{ i18n `email`}}" required>
+              <input type="email" class="form-control" placeholder="{{ i18n `email`}}" aria-label="{{ i18n `email`}}" name="email[email]" required>
             </div>
          
             <div class="col-12 mb-3 mt-0">
-              <textarea  rows="7" class="form-control mb-4" placeholder="{{ i18n `message`}}" id="floatingTextarea" name="{{ i18n `message`}}" required></textarea>
+              <textarea  rows="7" class="form-control mb-4" placeholder="{{ i18n `message`}}" id="floatingTextarea" name="email[content]" required></textarea>
             </div>
             <div hidden="true">
               <input type="text" class="form-control" placeholder="Don’t fill this out if you’re human:" name="always-empty">
@@ -32,8 +32,6 @@
           </div>
          
         </form>
-        
-
       </div>
     </div>
   </div>
