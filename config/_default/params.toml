@@ -20,7 +20,7 @@ sidebar = "true" # sidebar value (true or false)
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
 custom_script = ""
 
-mainSections = ["news", "feature"]
+mainSections = ["news", "feature", "events"]
 
 # contact form works with https://formspree.io and Netlify
 # use Netlify's contact form functionality
