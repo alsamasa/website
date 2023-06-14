@@ -23,7 +23,17 @@
 {{ partialCached "custom-script.html" . }}
 
 <!-- google analytics -->
-{{ template "_internal/google_analytics.html" . }}
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-41JRRDZC90"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-41JRRDZC90');
+</script>
+
 
 <!-- google tag manager -->
 {{ partialCached "gtm.html" . }}

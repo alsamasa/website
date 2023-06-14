@@ -23,9 +23,16 @@ Alsa-Masa is a non-orofit organization `NO-2209-WAS-0438`.
 
 ## Our Advocacies
 
-* Renaming the Philippines into Maharlika
-* Federalism
+* Crime Prevention
+  * Death Penalty
+  * Livelihood
+  * Proper Education
+* Community-based Justice
+* Environmentalism
+* Independent Foreign Policy
+  * Nationalism
 
+  
 
 ### What We Do
 

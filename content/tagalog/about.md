@@ -8,15 +8,43 @@ draft: false
 ---
 
 
+
+Alsa-Masa is a non-orofit organization `NO-2209-WAS-0438`.
+
+{{< button "Read Our Short History Here" "/feature/23-04-08/" >}}
+
+
+## Our Values
+
+* Peace
+* Freedom
+* Democracy
+
+
+## Our Advocacies
+
+* Crime Prevention
+  * Death Penalty
+  * Livelihood
+  * Proper Education
+* Community-based Justice
+* Environmentalism
+* Independent Foreign Policy
+  * Nationalism
+
+
 ### What We Do
 
-Alsa-Masa does the following trainings:
+We do the following trainings:
 
+  * Discipline
   * Anti-terror
-  * Disaster relief and rescue
   * Anti-crime
-
-{{< button "Read More" "/about" >}}
-
+  * Disaster relief and rescue
 
 {{< youtube 1TffJYfDqbU >}}
+
+We also do community activities:
+
+* Tree Planting
+* Community Cleanup 

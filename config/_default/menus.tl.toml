@@ -1,36 +1,47 @@
-# main menu
 [[main]]
-name = "Accueil"
+name = "Home"
 url = ""
 weight = 1
 
+
 [[main]]
-name = "à propos"
-url = "about/"
 weight = 2
-
-[[main]]
-name = "Contact"
-url = "contact/"
-weight = 3
-
-
-[[main]]
-name = "Élément"
-url = "element/"
-weight = 4
-
-[[main]]
-weight = 5
-name = "Pages"
+name = "Balita"
 hasChildren = true
 
 [[main]]
-parent = "Pages"
-name = "Blog Details"
-url = "blog/post-1/"
+parent = "Balita"
+name = "Huling Balita"
+url = "/news"
 
 [[main]]
-parent = "Pages"
-name = "Category"
-url = "categories/travel"
+parent = "Balita"
+name = "Events"
+url = "/events"
+
+# [[main]]
+# parent = "News"
+# name = "Categories"
+# url = "/categories"
+
+
+[[main]]
+weight = 3
+name = "Advocacies"
+url = "/advocacies"
+
+
+[[main]]
+weight = 4
+name = "About"
+hasChildren = true
+
+[[main]]
+parent = "About"
+name = "About Us"
+url = "/about"
+
+[[main]]
+parent = "About"
+name = "Contact"
+url = "/contact"

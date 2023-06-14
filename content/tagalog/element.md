@@ -5,12 +5,15 @@ layout: "element"
 draft: false
 ---
 
-# Éléments
+
+# Elements
+
 A paragraph looks like this — Globally incubate standards compliant channels before scalable benefits. Quickly
 disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar
 catalysts for change before vertical architectures. Credibly reintermediate backend ideas for cross-platform
 models. Continually reintermediate integrated processes through technically sound intellectual capital.
-Holistically foster superior methodologies.
+Holistically foster superior methodologies. Check out [Statichunt](https://statichunt.com)
+
 
 <hr>
  
@@ -48,7 +51,7 @@ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit ame
 ipsum dolor sit amet, consetetur sadipscing elitr.
 <hr>
 
-### Exemple de liste ordonnée :
+### Ordered list example:
 1. Poutine drinking vinegar bitters
 2. Coloring book distillery fanny pack
 3. List item
@@ -57,7 +60,7 @@ ipsum dolor sit amet, consetetur sadipscing elitr.
 
 <hr>
 
-### Exemple de liste non ordonnée :
+### Unordered list example:
 * Poutine drinking vinegar bitter
 * Coloring book distillery fanny pac
 * List item
@@ -155,4 +158,4 @@ print s
 
 
 ### Images
-{{< image c="img-fluid" title="image" src="/images/01.jpg" alt="element">}}
+{{< image class="img-fluid rounded-6" title="image" src="/images/01.jpg" alt="element">}}

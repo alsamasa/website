@@ -8,3 +8,6 @@
         </div>
         {{ end }}
         
+{{ template "_internal/google_analytics.html" . }}
+
+        
