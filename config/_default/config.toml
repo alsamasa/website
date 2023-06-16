@@ -1,9 +1,9 @@
 ######################## default configuration ####################
-baseURL = "https://alsamasa.org/"
+baseURL = "https://www.alsamasa.org/"
 title = "Alsa Masa and Tabang Masa"
 theme = "iwriter"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-timeZone = "UTC"
+timeZone = "+08"
 # post pagination
 paginate = "4" # see https://gohugo.io/extras/pagination/
 # post excerpt
