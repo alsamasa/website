@@ -1,7 +1,7 @@
 ---
 title: "About"
 image: "icons/alsa.png"
-description: "Ang Alsa Masa, na kilala rin bilang "Masang Dabaw," ay isang vigilante group na lumitaw sa Davao City noong huling bahagi ng 1986."
+description: "Ang Alsa Masa, na kilala rin bilang 'Masang Dabaw,' ay isang vigilante group na lumitaw sa Davao City noong huling bahagi ng 1986."
 layout: "about"
 button: "read more"
 draft: false
